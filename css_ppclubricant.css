@@ -1,0 +1,62 @@
+/* ------------------------------------------------------------
+Author: Sonia Hashim
+Date  : 02/17/15
+Notes : pure css recreation of screenshot of PPC Lubricant.  
+---------------------------------------------------------------*/
+
+#header {
+	display: block;
+	background-color: darkgrey;
+	width: 960px; 
+	height: 200px;
+}
+
+#container {
+	display: block;
+	background-color: black;
+	width: 960px; 
+	min-height: 700px; 
+}
+
+	/* IMAGE: STORE FRONT */
+	.decor-image {
+		display: inline-block;
+		
+		background-color: cyan;
+		height: 250px;
+		width: 300px;
+
+		margin-top: 20px; 
+		margin-left: 20px;
+	}
+
+	/* DIV: ABOUT */
+	.sub-content {
+		display: inline-block;
+		vertical-align: top;
+
+		background-color: yellow;
+		height: 250px;
+		width: 550px;
+
+		margin-top: 20px;
+		margin-left: 40px;
+	}
+
+	/* DIV: CONTENT FLAGS (AUTOMOTIVE, COMMERCIAL,
+		INDUSTRIAL, DIESEL */
+	.content-flag {
+		display: inline-block;
+		vertical-align: top;
+
+		background-color: yellow;
+
+		height: 250px;
+		width: 206px;
+
+		margin-top: 10px; 
+		margin-left: 20px;
+	}
+
+
+	}
